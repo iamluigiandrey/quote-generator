@@ -2,11 +2,11 @@
 
 This is a quote generator made to comply certification in freecodecamp.org
 
-<b>App was build using;</b>
+**App was build using;**
  - HTML, CSS  (Frontend Framework)
  - Javascript, Jquery (Backend Framework)
 
-<b>Functions:</b>
+**Functions:**
 - Generate new quotes randomly
 - Share quotes to twitter
 - Automatic copy quotes
