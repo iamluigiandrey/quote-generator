@@ -12,7 +12,7 @@ This is a quote generator made to comply certification in freecodecamp.org
 - Automatic copy quotes
 - Text to Speech
 <hr>
-Scraped API from: https://api.quotable.io/random
+Scraped API from: https://api.quotable.io
 
 Access it from here: https://iamluigiandrey.tiiny.site/
 
