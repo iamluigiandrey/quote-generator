@@ -1,0 +1,95 @@
+body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+     background: rgb(56,34,15);
+     color: rgb(236,224,209);
+     align-items: center;
+     justify-content: center;
+     display: flex;
+}
+
+ .container {
+     max-width: 800px;
+}
+
+ .quote-bg {
+     margin: 4rem 1rem;
+     background: rgb(150,114,89);
+     padding: 10px;
+     border-radius: 10px;
+}
+
+ #quote-box {
+     border: 5px solid rgb(56,34,15);
+     background: rgb(219,193,172);
+     color: rgb(99,72,50);
+     padding: 10px;
+}
+
+ h1 {
+     font-size: 2rem;
+     text-align: center;
+}
+
+ #text {
+     font-size: 25px;
+     font-weight: 500;
+     text-align: center;
+}
+ #author {
+     font-size: 20px;
+     margin-bottom: 20px;
+     font-style: italic;
+     text-align: center;
+}
+
+ #new-quote, #tweet-quote, #copy-quote, #speak-quote{
+     background-color: rgb(236,224,209);
+     color: rgb(99,72,50);
+     padding: 10px;
+     border: 2.5px solid rgb(56,34,15);
+     font-size: 1.2rem;
+     cursor: pointer;
+     justify-content: flex-start;
+     display: inline-block;
+     font-weight:500;
+}
+
+ button + button {
+     margin-left: -6px;
+}
+
+ #tweet-quote {
+     position: relative;
+     color: #00000000;
+     border-top: 2.5px solid rgb(56,34,15);
+     border-bottom: 2.5px solid rgb(56,34,15);
+}
+
+ #tweet-quote::before {
+     content: '\f099';
+     font-family: 'FontAwesome';
+     position: absolute;
+     top: 50%;
+     left: 8px;
+     transform: translateY(-50%);
+     font-size: 25px;
+     color: #00acee;
+}
+
+ #new-quote:hover {
+     background-color: rgb(150,114,89);
+     color: white;
+}
+
+ footer {
+     text-align: center;
+     line-height: 0px;
+     margin-bottom: 5px;
+}
+
+ footer span {
+     font-size: 20px;
+     font-weight: 800;
+}
